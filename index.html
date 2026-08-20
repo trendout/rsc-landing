@@ -687,6 +687,7 @@
         <span class="eyebrow" data-i18n="idp_eyebrow">Produção própria</span>
         <h2 class="section-title" style="font-size:1.9rem; margin-top:8px;" data-i18n="idp_title">Também fazemos a sua marca.</h2>
         <p style="max-width:52ch; color:var(--chalk-dim); margin-top:14px;" data-i18n="idp_desc">Produção, design e desenvolvimento para marcas private label. Estampagem, personalização e produção têxtil, para pequenas e grandes empresas que querem vender com o nome próprio na etiqueta.</p>
+        <a class="btn btn-primary" id="simuladorLink" style="margin-top:22px;" href="rsc-simulador.html" target="_blank" rel="noopener" data-i18n="idp_cta">Simulador</a>
       </div>
     </div>
   </section>
@@ -879,6 +880,7 @@
     "idp_eyebrow": "Produção própria",
     "idp_title": "Também fazemos a sua marca.",
     "idp_desc": "Produção, design e desenvolvimento para marcas private label. Estampagem, personalização e produção têxtil, para pequenas e grandes empresas que querem vender com o nome próprio na etiqueta.",
+  "idp_cta": "Simulador",
     "contact_eyebrow": "Destinatário: a sua loja",
     "contact_title": "Peça o catálogo e comece a vender esta semana.",
     "contact_desc": "Envie-nos um e-mail com o nome da sua loja e o tipo de cliente que serve — respondemos com o catálogo completo das quatro marcas e as condições de revenda.",
@@ -973,6 +975,7 @@
     "idp_eyebrow": "In-house production",
     "idp_title": "We make your brand too.",
     "idp_desc": "Production, design and development for private label brands. Printing, customisation and textile production, for small and large companies that want to sell under their own name.",
+  "idp_cta": "Simulator",
     "contact_eyebrow": "Addressee: your store",
     "contact_title": "Request the catalogue and start selling this week.",
     "contact_desc": "Send us an email with your store's name and the type of customer you serve — we'll reply with the full catalogue of all four brands and resale terms.",
@@ -1067,6 +1070,7 @@
     "idp_eyebrow": "Producción propia",
     "idp_title": "También hacemos tu marca.",
     "idp_desc": "Producción, diseño y desarrollo para marcas private label. Estampación, personalización y producción textil, para pequeñas y grandes empresas que quieren vender con su propio nombre en la etiqueta.",
+  "idp_cta": "Simulador",
     "contact_eyebrow": "Destinatario: tu tienda",
     "contact_title": "Pide el catálogo y empieza a vender esta semana.",
     "contact_desc": "Envíanos un correo con el nombre de tu tienda y el tipo de cliente al que atiendes — te responderemos con el catálogo completo de las cuatro marcas y las condiciones de reventa.",
@@ -1161,6 +1165,7 @@
     "idp_eyebrow": "Production propre",
     "idp_title": "Nous créons aussi votre marque.",
     "idp_desc": "Production, design et développement pour marques private label. Impression, personnalisation et production textile, pour petites et grandes entreprises qui veulent vendre sous leur propre nom.",
+  "idp_cta": "Simulateur",
     "contact_eyebrow": "Destinataire : votre boutique",
     "contact_title": "Demandez le catalogue et commencez à vendre cette semaine.",
     "contact_desc": "Envoyez-nous un e-mail avec le nom de votre boutique et le type de client que vous servez — nous répondrons avec le catalogue complet des quatre marques et les conditions de revente.",
@@ -1255,6 +1260,7 @@
     "idp_eyebrow": "Produzione propria",
     "idp_title": "Realizziamo anche il tuo marchio.",
     "idp_desc": "Produzione, design e sviluppo per marchi private label. Stampa, personalizzazione e produzione tessile, per piccole e grandi aziende che vogliono vendere con il proprio nome in etichetta.",
+  "idp_cta": "Simulatore",
     "contact_eyebrow": "Destinatario: il tuo negozio",
     "contact_title": "Richiedi il catalogo e inizia a vendere questa settimana.",
     "contact_desc": "Scrivici un'email con il nome del tuo negozio e il tipo di cliente che servi — ti risponderemo con il catalogo completo dei quattro marchi e le condizioni di rivendita.",
@@ -1349,6 +1355,7 @@
     "idp_eyebrow": "Eigene Produktion",
     "idp_title": "Wir machen auch Ihre Marke.",
     "idp_desc": "Produktion, Design und Entwicklung für Private-Label-Marken. Druck, Personalisierung und Textilproduktion, für kleine und große Unternehmen, die unter eigenem Namen verkaufen möchten.",
+  "idp_cta": "Simulator",
     "contact_eyebrow": "Empfänger: Ihr Geschäft",
     "contact_title": "Katalog anfordern und diese Woche mit dem Verkauf starten.",
     "contact_desc": "Schreiben Sie uns eine E-Mail mit dem Namen Ihres Geschäfts und der Art der Kunden, die Sie bedienen — wir antworten mit dem vollständigen Katalog aller vier Marken und den Wiederverkaufsbedingungen.",
@@ -1386,6 +1393,9 @@
     document.querySelectorAll('#mobileLangRow button').forEach(btn => {
       btn.classList.toggle('is-active', btn.getAttribute('data-lang') === lang);
     });
+
+    const simuladorLink = document.getElementById('simuladorLink');
+    if (simuladorLink) simuladorLink.href = 'rsc-simulador.html?lang=' + lang;
 
     const seo = SEO_META[lang] || SEO_META.pt;
     document.getElementById('pageTitle').textContent = seo.title;
