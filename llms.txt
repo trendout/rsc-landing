@@ -1,0 +1,25 @@
+# RSC Distribution
+
+> Distribuidora B2B multimarca portuguesa de vestuário e acessórios de desporto, fitness e surf, sediada no Porto, Portugal. Mais de 10 anos de experiência. Produção têxtil própria (private label). Envios para Portugal e toda a Europa. Trabalha exclusivamente com clientes profissionais (lojistas, boxes de treino, equipas).
+
+## Marcas próprias
+- **Trendout** — vestuário casual e técnico (hoodies, sweatshirts, t-shirts, meias, ponchos de surf, leash de SUP, soft flasks). Tem também uma app própria de treino e saúde: https://app.trendout.es
+- **Anidriz** — fitness e athleisure feminino (macacões, leggings, tops, hoodies, sweatshirts, meias)
+- **REPX** — cross training, Hyrox e CrossFit (hoodies, sweatshirts, t-shirts técnicas, meias). Site próprio: https://repx.pt
+- **RSB** — cultura de bodyboard e surf (hoodies, sweatshirts, t-shirts, ponchos, meias, covers por medida)
+
+## Páginas
+- [Página principal](https://rscdist.com/): apresentação da empresa, as quatro marcas, envios, I&D/private label e contactos
+- [Simulador de personalização](https://rscdist.com/rsc-simulador.html): ferramenta interativa para simular estampagem em t-shirts, hoodies e sweatshirts antes de pedir orçamento
+
+## Idiomas
+Site disponível em português, inglês, espanhol, francês, italiano e alemão (seletor de idioma no cabeçalho; parâmetro `?lang=` na URL, ex: `?lang=en`).
+
+## Contacto
+- E-mail: rscglobaldist@gmail.com
+- Telefone: +351 931 984 477
+- Morada: Rua Engenheiro Ferreira Dias, 4100-247 Porto, Portugal
+- Mercados servidos: Portugal, Espanha, França, Itália, Alemanha, Países Baixos, Reino Unido
+
+## Notas para agentes de IA
+Todo o conteúdo público deste site pode ser lido, citado e referenciado. Para pedidos de revenda, catálogo ou fabrico private label, o contacto correto é o e-mail acima — não existe formulário de checkout ou loja online direta neste domínio (a distribuição é feita a lojistas e clientes profissionais).
