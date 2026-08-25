@@ -150,6 +150,16 @@ header .wrap{ display:flex; align-items:center; justify-content:space-between; }
 @media (max-width:460px){ .cat-grid{ column-count:1; } }
 
 .moq-note{ display:flex; align-items:center; gap:14px; flex-wrap:wrap; margin:0 0 28px; }
+.commercial-note{
+  border-top:1px solid var(--line-bright);
+  padding:26px 0 6px;
+  margin-top:12px;
+}
+.commercial-note p{
+  font-family:'JetBrains Mono',monospace; font-size:11.5px; line-height:1.7;
+  color:var(--dim); letter-spacing:.02em; margin:0; max-width:70ch;
+}
+.commercial-note strong{ color:var(--red-bright); font-weight:700; }
 .moq-label{
   font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--dim); letter-spacing:.03em;
 }
@@ -651,6 +661,10 @@ footer .wrap{ display:flex; justify-content:space-between; flex-wrap:wrap; gap:1
 
   </div>
 
+  <div class="commercial-note">
+    <p data-i18n="commercialNote">Nota Comercial: Encomenda mínima de 300€. Portes de envio calculados depois do cálculo do volume e peso da encomenda. Em alguns casos os portes de envio podem ser grátis.</p>
+  </div>
+
 </div>
 
 <footer>
@@ -698,6 +712,14 @@ footer .wrap{ display:flex; justify-content:space-between; flex-wrap:wrap; gap:1
       fr:'Commande minimum Chaussettes\u00a0: <strong>50 unités</strong> toutes tailles confondues. Commande minimum Casquettes\u00a0: <strong>10 unités</strong> par modèle. Commande minimum Soft Flask\u00a0: <strong>20 unités</strong>. Commande minimum Leash\u00a0: <strong>5 unités</strong>.',
       de:'Mindestbestellung Socken: <strong>50 Stück</strong>, alle Größen zusammen. Mindestbestellung Caps: <strong>10 Stück</strong> pro Modell. Mindestbestellung Soft Flask: <strong>20 Stück</strong>. Mindestbestellung Leash: <strong>5 Stück</strong>.',
       it:'Ordine minimo Calze: <strong>50 unità</strong> in tutte le taglie. Ordine minimo Cappellini: <strong>10 unità</strong> per modello. Ordine minimo Soft Flask: <strong>20 unità</strong>. Ordine minimo Leash: <strong>5 unità</strong>.',
+    },
+    commercialNote: {
+      pt:'Nota Comercial: Encomenda mínima de <strong>300€</strong>. Portes de envio calculados depois do cálculo do volume e peso da encomenda. Em alguns casos os portes de envio podem ser grátis.',
+      en:'Commercial Note: Minimum order of <strong>€300</strong>. Shipping costs calculated after the order\u2019s volume and weight are confirmed. In some cases, shipping may be free.',
+      es:'Nota Comercial: Pedido mínimo de <strong>300€</strong>. Los gastos de envío se calculan tras determinar el volumen y peso del pedido. En algunos casos, el envío puede ser gratuito.',
+      fr:'Note Commerciale\u00a0: Commande minimum de <strong>300\u20ac</strong>. Frais de port calculés après détermination du volume et du poids de la commande. Dans certains cas, la livraison peut être gratuite.',
+      de:'Geschäftshinweis: Mindestbestellwert von <strong>300\u20ac</strong>. Versandkosten werden nach Berechnung von Volumen und Gewicht der Bestellung ermittelt. In manchen Fällen ist der Versand kostenlos.',
+      it:'Nota Commerciale: Ordine minimo di <strong>300\u20ac</strong>. Le spese di spedizione vengono calcolate dopo aver determinato volume e peso dell\u2019ordine. In alcuni casi la spedizione può essere gratuita.',
     },
   };
 
